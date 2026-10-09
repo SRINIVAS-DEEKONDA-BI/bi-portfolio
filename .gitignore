@@ -1,0 +1,26 @@
+# Secrets - never commit
+.env
+.env.*
+*.key
+*.pem
+google-services.json
+credentials*.json
+
+# Power BI project caches / local settings
+**/.pbi/cache.abf
+**/localSettings.json
+
+# Office temp/lock files
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
